@@ -1,1 +1,1 @@
-est-ce que la porte de garage est ouverte ou fermée
+est-ce_que la porte de garage est ouverte ou fermée
