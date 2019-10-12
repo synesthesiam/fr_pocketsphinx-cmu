@@ -9,12 +9,22 @@
     "correct_entities": 0,
     "transcription_accuracy": 0.6403508771929824,
     "intent_accuracy": 1,
-    "entity_accuracy": 1
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 1,
+    "average_transcription_speedup": 4.185739880402586
   },
   "actual": {
     "fr-sb-502.wav": {
       "text": "vous contemple réélu nouveau signe dans le ciel et de nouveaux mis sur la paix",
-      "transcribe_seconds": 2.0729756355285645,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0003039836883544922,
+      "transcribe_seconds": 1.8935608863830566,
       "wav_seconds": 7,
       "likelihood": 2.381017500390366e-07,
       "word_error": {
@@ -27,7 +37,15 @@
     },
     "fr-sb-495.wav": {
       "text": "il était à soixante millions de kilomètres dans l' état",
-      "transcribe_seconds": 1.3058557510375977,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00020122528076171875,
+      "transcribe_seconds": 1.2198379039764404,
       "wav_seconds": 6,
       "likelihood": 0.0006051955628116466,
       "word_error": {
@@ -40,7 +58,15 @@
     },
     "fr-sb-499.wav": {
       "text": "son esprit saint maurice et éprouvaient des difficultés à dissimuler la colère",
-      "transcribe_seconds": 2.2243969440460205,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002357959747314453,
+      "transcribe_seconds": 2.029435873031616,
       "wav_seconds": 8,
       "likelihood": 0.0002216800746176596,
       "word_error": {
@@ -53,7 +79,15 @@
     },
     "fr-sb-501.wav": {
       "text": "il serait omar est reconnu ce faisant le le poids était un simple main poser",
-      "transcribe_seconds": 2.5806829929351807,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0001914501190185547,
+      "transcribe_seconds": 2.2722132205963135,
       "wav_seconds": 8.125,
       "likelihood": 6.409602683146173e-10,
       "word_error": {
@@ -66,7 +100,15 @@
     },
     "fr-sb-500.wav": {
       "text": "elles ont déterminé un mouvement btp spatiale il ne s' arrêtera pas",
-      "transcribe_seconds": 2.0563478469848633,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00019073486328125,
+      "transcribe_seconds": 1.9018399715423584,
       "wav_seconds": 7.375,
       "likelihood": 2.6973250774566158e-08,
       "word_error": {
@@ -79,7 +121,15 @@
     },
     "fr-sb-503.wav": {
       "text": "les yeux dans les lieux les clients les interrogations le temps",
-      "transcribe_seconds": 1.6549072265625,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00020003318786621094,
+      "transcribe_seconds": 1.556931734085083,
       "wav_seconds": 5.625,
       "likelihood": 0.0010585088514404291,
       "word_error": {
@@ -92,7 +142,15 @@
     },
     "fr-sb-496.wav": {
       "text": "le monde était dans une sécurité un tranquillité parfait",
-      "transcribe_seconds": 1.5884137153625488,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00018739700317382812,
+      "transcribe_seconds": 1.5019927024841309,
       "wav_seconds": 6.5,
       "likelihood": 0.00018346305350822249,
       "word_error": {
@@ -105,7 +163,15 @@
     },
     "fr-sb-498.wav": {
       "text": "une image pleurant émouvant se formaient et se des formes et dans son esprit",
-      "transcribe_seconds": 2.529777765274048,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0001995563507080078,
+      "transcribe_seconds": 2.4070792198181152,
       "wav_seconds": 8.25,
       "likelihood": 1.2319148287442547e-08,
       "word_error": {
@@ -118,7 +184,15 @@
     },
     "fr-sb-497.wav": {
       "text": "il vérifiables par perfusion eln infectées le bien",
-      "transcribe_seconds": 1.3585410118103027,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0001850128173828125,
+      "transcribe_seconds": 1.1707024574279785,
       "wav_seconds": 6.125,
       "likelihood": 5.99156758894353e-08,
       "word_error": {
@@ -131,7 +205,15 @@
     },
     "fr-sb-504.wav": {
       "text": "il avance à pas un par la pression accentua un court instant",
-      "transcribe_seconds": 1.498171329498291,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00019359588623046875,
+      "transcribe_seconds": 1.381845235824585,
       "wav_seconds": 7.25,
       "likelihood": 1.3257981189047595e-10,
       "word_error": {

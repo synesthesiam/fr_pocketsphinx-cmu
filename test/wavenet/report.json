@@ -3,28 +3,33 @@
     "num_wavs": 12,
     "num_words": 75,
     "num_entities": 12,
-    "correct_transcriptions": 7,
+    "correct_transcriptions": 8,
     "correct_intent_names": 9,
     "correct_words": 64,
     "correct_entities": 10,
     "transcription_accuracy": 0.8533333333333334,
     "intent_accuracy": 0.75,
-    "entity_accuracy": 0.8333333333333334
+    "entity_accuracy": 0.8333333333333334,
+    "intent_entity_accuracy": 0.75,
+    "average_transcription_speedup": 49.43307232068641
   },
   "actual": {
     "quelle_est_la_température.wav": {
       "text": "-elle température",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "GetTemperature"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.0002193450927734375,
-      "transcribe_seconds": 0.027202606201171875,
+      "recognize_seconds": 0.00038814544677734375,
+      "transcribe_seconds": 0.028053760528564453,
       "wav_seconds": 1.4678125,
-      "likelihood": 0.36384868815006266,
+      "likelihood": 0.36721193312570793,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "QUELLE EST LA   température",
         "actual": "***    *** ELLE température",
@@ -37,15 +42,18 @@
       "text": "la porte de garage est ouverte ou fermée",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "GetGarageState"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.00028133392333984375,
-      "transcribe_seconds": 0.05101132392883301,
+      "recognize_seconds": 0.00026488304138183594,
+      "transcribe_seconds": 0.051619768142700195,
       "wav_seconds": 3.0151875,
-      "likelihood": 0.3573572574884938,
+      "likelihood": 0.37179424384932447,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "EST CE  QUE la  porte de  garage est ouverte ou  fermée",
         "actual": "*** *** *** la  porte de  garage est ouverte ou  fermée",
@@ -58,7 +66,8 @@
       "text": "off la lumière dans la chambre à coucher",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -106,13 +115,15 @@
         "name": "la lumière dans la chambre à coucher"
       },
       "intents": [],
-      "recognize_seconds": 0.00043010711669921875,
-      "transcribe_seconds": 0.05485939979553223,
+      "recognize_seconds": 0.0004019737243652344,
+      "transcribe_seconds": 0.05292487144470215,
       "wav_seconds": 2.6883125,
-      "likelihood": 0.34703741766268176,
+      "likelihood": 0.3400627817313465,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "off la  lumière dans la  chambre à  coucher",
-        "actual": "off la  lumière dans la  chambre à  coucher",
+        "expected": "éteindre la  lumière dans la  chambre à  coucher",
+        "actual": "éteindre la  lumière dans la  chambre à  coucher",
         "words": 8,
         "correct": 8,
         "errors": 0
@@ -122,7 +133,8 @@
       "text": "quelle heure est -il",
       "intent": {
         "name": "GetTime",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTime"
       },
       "entities": [],
       "raw_text": "quelle heure est -il",
@@ -140,10 +152,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003311634063720703,
-      "transcribe_seconds": 0.027740001678466797,
+      "recognize_seconds": 0.0003178119659423828,
+      "transcribe_seconds": 0.027123689651489258,
       "wav_seconds": 1.0114375,
-      "likelihood": 0.04784673747737812,
+      "likelihood": 0.10133074935372131,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "IL     EST   QUELLE HEURE",
         "actual": "QUELLE HEURE EST    IL",
@@ -156,7 +170,8 @@
       "text": "on la lumière dans la chambre à coucher",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -204,13 +219,15 @@
         "name": "la lumière dans la chambre à coucher"
       },
       "intents": [],
-      "recognize_seconds": 0.0004239082336425781,
-      "transcribe_seconds": 0.04778337478637695,
+      "recognize_seconds": 0.0004086494445800781,
+      "transcribe_seconds": 0.046845436096191406,
       "wav_seconds": 2.562125,
-      "likelihood": 0.34269167813369944,
+      "likelihood": 0.3478018291307523,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "on  la  lumière dans la  chambre à  coucher",
-        "actual": "on  la  lumière dans la  chambre à  coucher",
+        "expected": "allumé la  lumière dans la  chambre à  coucher",
+        "actual": "allumé la  lumière dans la  chambre à  coucher",
         "words": 8,
         "correct": 8,
         "errors": 0
@@ -220,7 +237,8 @@
       "text": "off l'éclairage de garage",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -260,13 +278,15 @@
         "name": "l'éclairage de garage"
       },
       "intents": [],
-      "recognize_seconds": 0.0003750324249267578,
-      "transcribe_seconds": 0.04292654991149902,
+      "recognize_seconds": 0.0005335807800292969,
+      "transcribe_seconds": 0.04423117637634277,
       "wav_seconds": 2.0468125,
-      "likelihood": 0.6181304495161707,
+      "likelihood": 0.6227843978272207,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "off l'éclairage de  garage",
-        "actual": "off l'éclairage de  garage",
+        "expected": "éteindre l'éclairage de  garage",
+        "actual": "éteindre l'éclairage de  garage",
         "words": 4,
         "correct": 4,
         "errors": 0
@@ -276,7 +296,8 @@
       "text": "on l'éclairage de garage",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -316,13 +337,15 @@
         "name": "l'éclairage de garage"
       },
       "intents": [],
-      "recognize_seconds": 0.00037741661071777344,
-      "transcribe_seconds": 0.04311013221740723,
+      "recognize_seconds": 0.00036978721618652344,
+      "transcribe_seconds": 0.045786380767822266,
       "wav_seconds": 1.9378125,
-      "likelihood": 0.8630202910846391,
+      "likelihood": 0.8586295844815371,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "on  l'éclairage de  garage",
-        "actual": "on  l'éclairage de  garage",
+        "expected": "allumé l'éclairage de  garage",
+        "actual": "allumé l'éclairage de  garage",
         "words": 4,
         "correct": 4,
         "errors": 0
@@ -332,7 +355,8 @@
       "text": "la porte de garage est -elle ouverte ou fermée",
       "intent": {
         "name": "GetGarageState",
-        "confidence": 0.875
+        "confidence": 0.875,
+        "expected_name": "GetGarageState"
       },
       "entities": [],
       "raw_text": "la porte de garage est -elle ouverte ou fermée",
@@ -360,10 +384,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003533363342285156,
-      "transcribe_seconds": 0.06078171730041504,
+      "recognize_seconds": 0.0003478527069091797,
+      "transcribe_seconds": 0.061893463134765625,
       "wav_seconds": 2.867875,
-      "likelihood": 0.05604871777393214,
+      "likelihood": 0.05580819789659209,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "la  porte de  garage est elle ouverte ou  fermée",
         "actual": "la  porte de  garage est elle ouverte ou  fermée",
@@ -376,7 +402,8 @@
       "text": "on la lampe de salon",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -418,13 +445,15 @@
         "name": "la lampe de salon"
       },
       "intents": [],
-      "recognize_seconds": 0.00038313865661621094,
-      "transcribe_seconds": 0.03754544258117676,
+      "recognize_seconds": 0.0003573894500732422,
+      "transcribe_seconds": 0.0373845100402832,
       "wav_seconds": 1.7656875,
-      "likelihood": 0.6963227856683804,
+      "likelihood": 0.7013549872048429,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "on  la  lampe de  salon",
-        "actual": "on  la  lampe de  salon",
+        "expected": "allumé la  lampe de  salon",
+        "actual": "allumé la  lampe de  salon",
         "words": 5,
         "correct": 5,
         "errors": 0
@@ -434,7 +463,8 @@
       "text": "il est quelle heure",
       "intent": {
         "name": "GetTime",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTime"
       },
       "entities": [],
       "raw_text": "il est quelle heure",
@@ -452,10 +482,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.00029206275939941406,
-      "transcribe_seconds": 0.016418933868408203,
+      "recognize_seconds": 0.0003020763397216797,
+      "transcribe_seconds": 0.017284154891967773,
       "wav_seconds": 0.94875,
-      "likelihood": 0.6526923107688885,
+      "likelihood": 0.653802960220019,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "il  est quelle heure",
         "actual": "il  est quelle heure",
@@ -468,18 +500,21 @@
       "text": "la lampe de salon",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.00025010108947753906,
-      "transcribe_seconds": 0.03292036056518555,
+      "recognize_seconds": 0.0002448558807373047,
+      "transcribe_seconds": 0.034239768981933594,
       "wav_seconds": 1.8169375,
-      "likelihood": 0.7170293125425101,
+      "likelihood": 0.7214892226733807,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "OFF la  lampe de  salon",
-        "actual": "*** la  lampe de  salon",
+        "expected": "éTEINDRE la  lampe de  salon",
+        "actual": "***       la  lampe de  salon",
         "words": 5,
         "correct": 4,
         "errors": 1
@@ -489,7 +524,8 @@
       "text": "est -elle ouverte ou fermée la porte de garage",
       "intent": {
         "name": "GetGarageState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetGarageState"
       },
       "entities": [],
       "raw_text": "est -elle ouverte ou fermée la porte de garage",
@@ -517,10 +553,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.00035572052001953125,
-      "transcribe_seconds": 0.05935478210449219,
+      "recognize_seconds": 0.0003209114074707031,
+      "transcribe_seconds": 0.055696725845336914,
       "wav_seconds": 2.760625,
-      "likelihood": 0.03608474610736638,
+      "likelihood": 0.03715036529120363,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "est elle ouverte ou  fermée la  porte de  garage",
         "actual": "est elle ouverte ou  fermée la  porte de  garage",
