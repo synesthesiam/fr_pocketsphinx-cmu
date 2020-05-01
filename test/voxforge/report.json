@@ -1,260 +1,840 @@
 {
-  "statistics": {
-    "num_wavs": 10,
-    "num_words": 114,
-    "num_entities": 0,
-    "correct_transcriptions": 0,
-    "correct_intent_names": 0,
-    "correct_words": 73,
-    "correct_entities": 0,
-    "transcription_accuracy": 0.6403508771929824,
-    "intent_accuracy": 1,
-    "entity_accuracy": 1,
-    "intent_entity_accuracy": 1,
-    "average_transcription_speedup": 4.185739880402586
+  "expected": {
+    "fr-sb-500.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "elles ont déterminé un mouvement d'équité sociale qui ne s'arrêtera pas",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "fr-sb-497.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "il vérifia sa perfusion elle n'injectait plus rien",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "fr-sb-504.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "il avança d'un pas et la pression s'accentua un court instant",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "fr-sb-499.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "son esprit s’engourdissait éprouvait des difficultés à dissimuler la colère",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "fr-sb-502.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "vous contemplerez de nouveaux signes dans le ciel et de nouveaux fruits sur la terre",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "fr-sb-495.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "il était à soixante millions de kilomètres dans l’espace",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "fr-sb-496.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "le monde était dans une sécurité et une tranquillité parfaites",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "fr-sb-501.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "il se retourna et reconnut ce faisant que le poids était une simple main posée",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "fr-sb-503.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "les yeux dans les yeux les clients les interrogent sur le temps",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "fr-sb-498.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "une image floue et mouvante se formait et se déformait dans son esprit",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
   },
   "actual": {
-    "fr-sb-502.wav": {
-      "text": "vous contemple réélu nouveau signe dans le ciel et de nouveaux mis sur la paix",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0003039836883544922,
-      "transcribe_seconds": 1.8935608863830566,
-      "wav_seconds": 7,
-      "likelihood": 2.381017500390366e-07,
-      "word_error": {
-        "expected": "vous CONTEMPLEREZ DE      NOUVEAUX SIGNES dans le  ciel et  de  nouveaux FRUITS sur la  TERRE",
-        "actual": "vous CONTEMPLE    RééLU NOUVEAU  SIGNE  dans le  ciel et  de  nouveaux MIS    sur la  PAIX",
-        "words": 15,
-        "correct": 9,
-        "errors": 6
-      }
-    },
-    "fr-sb-495.wav": {
-      "text": "il était à soixante millions de kilomètres dans l' état",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00020122528076171875,
-      "transcribe_seconds": 1.2198379039764404,
-      "wav_seconds": 6,
-      "likelihood": 0.0006051955628116466,
-      "word_error": {
-        "expected": "il  était à  soixante millions de  kilomètres dans *** L’ESPACE",
-        "actual": "il  était à  soixante millions de  kilomètres dans L'  éTAT",
-        "words": 9,
-        "correct": 8,
-        "errors": 2
-      }
-    },
-    "fr-sb-499.wav": {
-      "text": "son esprit saint maurice et éprouvaient des difficultés à dissimuler la colère",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0002357959747314453,
-      "transcribe_seconds": 2.029435873031616,
-      "wav_seconds": 8,
-      "likelihood": 0.0002216800746176596,
-      "word_error": {
-        "expected": "son esprit ***   ***     S’ENGOURDISSAIT éPROUVAIT   des difficultés à  dissimuler la  colère",
-        "actual": "son esprit SAINT MAURICE ET                éPROUVAIENT des difficultés à  dissimuler la  colère",
-        "words": 10,
-        "correct": 8,
-        "errors": 4
-      }
-    },
-    "fr-sb-501.wav": {
-      "text": "il serait omar est reconnu ce faisant le le poids était un simple main poser",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0001914501190185547,
-      "transcribe_seconds": 2.2722132205963135,
-      "wav_seconds": 8.125,
-      "likelihood": 6.409602683146173e-10,
-      "word_error": {
-        "expected": "il  SE     RETOURNA ET  RECONNUT ce  faisant QUE le  poids était UNE simple main POSéE",
-        "actual": "il  SERAIT OMAR     EST RECONNU  ce  faisant LE  le  poids était UN  simple main POSER",
-        "words": 15,
-        "correct": 8,
-        "errors": 7
-      }
-    },
     "fr-sb-500.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
       "text": "elles ont déterminé un mouvement btp spatiale il ne s' arrêtera pas",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00019073486328125,
-      "transcribe_seconds": 1.9018399715423584,
+      "raw_text": "elles ont déterminé un mouvement btp spatiale il ne s' arrêtera pas",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 7.375,
-      "likelihood": 2.6973250774566158e-08,
+      "transcribe_seconds": 4.138270815001306,
+      "speech_confidence": null,
+      "wav_name": "fr-sb-500.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "elles ont déterminé un  mouvement D'éQUITé SOCIALE  QUI ne  *** S'ARRêTERA pas",
-        "actual": "elles ont déterminé un  mouvement BTP        SPATIALE IL  ne  S'  ARRêTERA   pas",
+        "reference": [
+          "elles",
+          "ont",
+          "déterminé",
+          "un",
+          "mouvement",
+          "d'équité",
+          "sociale",
+          "qui",
+          "ne",
+          "s'arrêtera",
+          "pas"
+        ],
+        "hypothesis": [
+          "elles",
+          "ont",
+          "déterminé",
+          "un",
+          "mouvement",
+          "btp",
+          "spatiale",
+          "il",
+          "ne",
+          "s'",
+          "arrêtera",
+          "pas"
+        ],
+        "differences": [
+          "elles",
+          "ont",
+          "déterminé",
+          "un",
+          "mouvement",
+          "d'équité:btp",
+          "sociale:spatiale",
+          "qui:il",
+          "ne",
+          "+s'",
+          "s'arrêtera:arrêtera",
+          "pas"
+        ],
         "words": 11,
-        "correct": 7,
-        "errors": 5
-      }
-    },
-    "fr-sb-503.wav": {
-      "text": "les yeux dans les lieux les clients les interrogations le temps",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00020003318786621094,
-      "transcribe_seconds": 1.556931734085083,
-      "wav_seconds": 5.625,
-      "likelihood": 0.0010585088514404291,
-      "word_error": {
-        "expected": "les yeux dans les YEUX  les clients les INTERROGENT SUR            le  temps",
-        "actual": "les yeux dans les LIEUX les clients les ***         INTERROGATIONS le  temps",
-        "words": 12,
-        "correct": 9,
-        "errors": 3
-      }
-    },
-    "fr-sb-496.wav": {
-      "text": "le monde était dans une sécurité un tranquillité parfait",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00018739700317382812,
-      "transcribe_seconds": 1.5019927024841309,
-      "wav_seconds": 6.5,
-      "likelihood": 0.00018346305350822249,
-      "word_error": {
-        "expected": "le  monde était dans une sécurité ET  UNE tranquillité PARFAITES",
-        "actual": "le  monde était dans une sécurité *** UN  tranquillité PARFAIT",
-        "words": 10,
-        "correct": 7,
-        "errors": 3
-      }
-    },
-    "fr-sb-498.wav": {
-      "text": "une image pleurant émouvant se formaient et se des formes et dans son esprit",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0001995563507080078,
-      "transcribe_seconds": 2.4070792198181152,
-      "wav_seconds": 8.25,
-      "likelihood": 1.2319148287442547e-08,
-      "word_error": {
-        "expected": "une image FLOUE ET       MOUVANTE  se  FORMAIT   et  se  *** ***    DéFORMAIT dans son esprit",
-        "actual": "une image ***   PLEURANT éMOUVANT se  FORMAIENT et  se  DES FORMES ET         dans son esprit",
-        "words": 13,
-        "correct": 8,
-        "errors": 7
+        "errors": 5,
+        "matches": 7,
+        "substitutions": 4,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.45454545454545453
       }
     },
     "fr-sb-497.wav": {
-      "text": "il vérifiables par perfusion eln infectées le bien",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0001850128173828125,
-      "transcribe_seconds": 1.1707024574279785,
+      "text": "il vérifiables par perfusion eln infectées le bien",
+      "raw_text": "il vérifiables par perfusion eln infectées le bien",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 6.125,
-      "likelihood": 5.99156758894353e-08,
+      "transcribe_seconds": 2.787541849000263,
+      "speech_confidence": null,
+      "wav_name": "fr-sb-497.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "il  VéRIFIA     SA  perfusion ELLE N'INJECTAIT PLUS RIEN",
-        "actual": "il  VéRIFIABLES PAR perfusion ELN  INFECTéES  LE   BIEN",
+        "reference": [
+          "il",
+          "vérifia",
+          "sa",
+          "perfusion",
+          "elle",
+          "n'injectait",
+          "plus",
+          "rien"
+        ],
+        "hypothesis": [
+          "il",
+          "vérifiables",
+          "par",
+          "perfusion",
+          "eln",
+          "infectées",
+          "le",
+          "bien"
+        ],
+        "differences": [
+          "il",
+          "vérifia:vérifiables",
+          "sa:par",
+          "perfusion",
+          "elle:eln",
+          "n'injectait:infectées",
+          "plus:le",
+          "rien:bien"
+        ],
         "words": 8,
-        "correct": 2,
-        "errors": 6
+        "errors": 6,
+        "matches": 2,
+        "substitutions": 6,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.75
       }
     },
     "fr-sb-504.wav": {
-      "text": "il avance à pas un par la pression accentua un court instant",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.00019359588623046875,
-      "transcribe_seconds": 1.381845235824585,
+      "text": "il avance à pas un par la pression accentua un court instant",
+      "raw_text": "il avance à pas un par la pression accentua un court instant",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 7.25,
-      "likelihood": 1.3257981189047595e-10,
+      "transcribe_seconds": 3.468488343001809,
+      "speech_confidence": null,
+      "wav_name": "fr-sb-504.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "il  AVANçA D'UN pas *** ET  la  pression S'ACCENTUA un  court instant",
-        "actual": "il  AVANCE  à   pas UN  PAR la  pression ACCENTUA   un  court instant",
+        "reference": [
+          "il",
+          "avança",
+          "d'un",
+          "pas",
+          "et",
+          "la",
+          "pression",
+          "s'accentua",
+          "un",
+          "court",
+          "instant"
+        ],
+        "hypothesis": [
+          "il",
+          "avance",
+          "à",
+          "pas",
+          "un",
+          "par",
+          "la",
+          "pression",
+          "accentua",
+          "un",
+          "court",
+          "instant"
+        ],
+        "differences": [
+          "il",
+          "avança:avance",
+          "d'un:à",
+          "pas",
+          "+un",
+          "et:par",
+          "la",
+          "pression",
+          "s'accentua:accentua",
+          "un",
+          "court",
+          "instant"
+        ],
         "words": 11,
-        "correct": 7,
-        "errors": 5
+        "errors": 5,
+        "matches": 7,
+        "substitutions": 4,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.45454545454545453
+      }
+    },
+    "fr-sb-499.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "son esprit saint maurice et éprouvaient des difficultés à dissimuler la colère",
+      "raw_text": "son esprit saint maurice et éprouvaient des difficultés à dissimuler la colère",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 8,
+      "transcribe_seconds": 5.256080913997721,
+      "speech_confidence": null,
+      "wav_name": "fr-sb-499.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "son",
+          "esprit",
+          "s’engourdissait",
+          "éprouvait",
+          "des",
+          "difficultés",
+          "à",
+          "dissimuler",
+          "la",
+          "colère"
+        ],
+        "hypothesis": [
+          "son",
+          "esprit",
+          "saint",
+          "maurice",
+          "et",
+          "éprouvaient",
+          "des",
+          "difficultés",
+          "à",
+          "dissimuler",
+          "la",
+          "colère"
+        ],
+        "differences": [
+          "son",
+          "esprit",
+          "+saint",
+          "+maurice",
+          "s’engourdissait:et",
+          "éprouvait:éprouvaient",
+          "des",
+          "difficultés",
+          "à",
+          "dissimuler",
+          "la",
+          "colère"
+        ],
+        "words": 10,
+        "errors": 4,
+        "matches": 8,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 2,
+        "error_rate": 0.4
+      }
+    },
+    "fr-sb-502.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "vous contemple réélu nouveau signe dans le ciel et de nouveaux mis sur la paix",
+      "raw_text": "vous contemple réélu nouveau signe dans le ciel et de nouveaux mis sur la paix",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 7,
+      "transcribe_seconds": 3.716683104998083,
+      "speech_confidence": null,
+      "wav_name": "fr-sb-502.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "vous",
+          "contemplerez",
+          "de",
+          "nouveaux",
+          "signes",
+          "dans",
+          "le",
+          "ciel",
+          "et",
+          "de",
+          "nouveaux",
+          "fruits",
+          "sur",
+          "la",
+          "terre"
+        ],
+        "hypothesis": [
+          "vous",
+          "contemple",
+          "réélu",
+          "nouveau",
+          "signe",
+          "dans",
+          "le",
+          "ciel",
+          "et",
+          "de",
+          "nouveaux",
+          "mis",
+          "sur",
+          "la",
+          "paix"
+        ],
+        "differences": [
+          "vous",
+          "contemplerez:contemple",
+          "de:réélu",
+          "nouveaux:nouveau",
+          "signes:signe",
+          "dans",
+          "le",
+          "ciel",
+          "et",
+          "de",
+          "nouveaux",
+          "fruits:mis",
+          "sur",
+          "la",
+          "terre:paix"
+        ],
+        "words": 15,
+        "errors": 6,
+        "matches": 9,
+        "substitutions": 6,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.4
+      }
+    },
+    "fr-sb-495.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "il était à soixante millions de kilomètres dans l' état",
+      "raw_text": "il était à soixante millions de kilomètres dans l' état",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6,
+      "transcribe_seconds": 2.303514430997893,
+      "speech_confidence": null,
+      "wav_name": "fr-sb-495.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "il",
+          "était",
+          "à",
+          "soixante",
+          "millions",
+          "de",
+          "kilomètres",
+          "dans",
+          "l’espace"
+        ],
+        "hypothesis": [
+          "il",
+          "était",
+          "à",
+          "soixante",
+          "millions",
+          "de",
+          "kilomètres",
+          "dans",
+          "l'",
+          "état"
+        ],
+        "differences": [
+          "il",
+          "était",
+          "à",
+          "soixante",
+          "millions",
+          "de",
+          "kilomètres",
+          "dans",
+          "+l'",
+          "l’espace:état"
+        ],
+        "words": 9,
+        "errors": 2,
+        "matches": 8,
+        "substitutions": 1,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.2222222222222222
+      }
+    },
+    "fr-sb-496.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "le monde était dans une sécurité un tranquillité parfait",
+      "raw_text": "le monde était dans une sécurité un tranquillité parfait",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 6.5,
+      "transcribe_seconds": 3.642738182003086,
+      "speech_confidence": null,
+      "wav_name": "fr-sb-496.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "le",
+          "monde",
+          "était",
+          "dans",
+          "une",
+          "sécurité",
+          "et",
+          "une",
+          "tranquillité",
+          "parfaites"
+        ],
+        "hypothesis": [
+          "le",
+          "monde",
+          "était",
+          "dans",
+          "une",
+          "sécurité",
+          "un",
+          "tranquillité",
+          "parfait"
+        ],
+        "differences": [
+          "le",
+          "monde",
+          "était",
+          "dans",
+          "une",
+          "sécurité",
+          "-et",
+          "une:un",
+          "tranquillité",
+          "parfaites:parfait"
+        ],
+        "words": 10,
+        "errors": 3,
+        "matches": 7,
+        "substitutions": 2,
+        "deletions": 1,
+        "insertions": 0,
+        "error_rate": 0.3
+      }
+    },
+    "fr-sb-501.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "il serait omar est reconnu ce faisant le le poids était un simple main conviés",
+      "raw_text": "il serait omar est reconnu ce faisant le le poids était un simple main conviés",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 8.125,
+      "transcribe_seconds": 5.598374150999007,
+      "speech_confidence": null,
+      "wav_name": "fr-sb-501.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "il",
+          "se",
+          "retourna",
+          "et",
+          "reconnut",
+          "ce",
+          "faisant",
+          "que",
+          "le",
+          "poids",
+          "était",
+          "une",
+          "simple",
+          "main",
+          "posée"
+        ],
+        "hypothesis": [
+          "il",
+          "serait",
+          "omar",
+          "est",
+          "reconnu",
+          "ce",
+          "faisant",
+          "le",
+          "le",
+          "poids",
+          "était",
+          "un",
+          "simple",
+          "main",
+          "conviés"
+        ],
+        "differences": [
+          "il",
+          "se:serait",
+          "retourna:omar",
+          "et:est",
+          "reconnut:reconnu",
+          "ce",
+          "faisant",
+          "que:le",
+          "le",
+          "poids",
+          "était",
+          "une:un",
+          "simple",
+          "main",
+          "posée:conviés"
+        ],
+        "words": 15,
+        "errors": 7,
+        "matches": 8,
+        "substitutions": 7,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.4666666666666667
+      }
+    },
+    "fr-sb-503.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "les yeux dans les lieux les clients les interrogations le temps",
+      "raw_text": "les yeux dans les lieux les clients les interrogations le temps",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.625,
+      "transcribe_seconds": 3.4308349560014904,
+      "speech_confidence": null,
+      "wav_name": "fr-sb-503.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "les",
+          "yeux",
+          "dans",
+          "les",
+          "yeux",
+          "les",
+          "clients",
+          "les",
+          "interrogent",
+          "sur",
+          "le",
+          "temps"
+        ],
+        "hypothesis": [
+          "les",
+          "yeux",
+          "dans",
+          "les",
+          "lieux",
+          "les",
+          "clients",
+          "les",
+          "interrogations",
+          "le",
+          "temps"
+        ],
+        "differences": [
+          "les",
+          "yeux",
+          "dans",
+          "les",
+          "yeux:lieux",
+          "les",
+          "clients",
+          "les",
+          "-interrogent",
+          "sur:interrogations",
+          "le",
+          "temps"
+        ],
+        "words": 12,
+        "errors": 3,
+        "matches": 9,
+        "substitutions": 2,
+        "deletions": 1,
+        "insertions": 0,
+        "error_rate": 0.25
+      }
+    },
+    "fr-sb-498.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "une image pleurant émouvant se formaient vise des formes et dans son esprit",
+      "raw_text": "une image pleurant émouvant se formaient vise des formes et dans son esprit",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 8.25,
+      "transcribe_seconds": 4.772347522000928,
+      "speech_confidence": null,
+      "wav_name": "fr-sb-498.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "une",
+          "image",
+          "floue",
+          "et",
+          "mouvante",
+          "se",
+          "formait",
+          "et",
+          "se",
+          "déformait",
+          "dans",
+          "son",
+          "esprit"
+        ],
+        "hypothesis": [
+          "une",
+          "image",
+          "pleurant",
+          "émouvant",
+          "se",
+          "formaient",
+          "vise",
+          "des",
+          "formes",
+          "et",
+          "dans",
+          "son",
+          "esprit"
+        ],
+        "differences": [
+          "une",
+          "image",
+          "floue:pleurant",
+          "et:émouvant",
+          "mouvante:se",
+          "se:formaient",
+          "formait:vise",
+          "et:des",
+          "se:formes",
+          "déformait:et",
+          "dans",
+          "son",
+          "esprit"
+        ],
+        "words": 13,
+        "errors": 8,
+        "matches": 5,
+        "substitutions": 8,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.6153846153846154
       }
     }
   },
-  "expected": {
-    "fr-sb-502.wav": {
-      "text": "vous contemplerez de nouveaux signes dans le ciel et de nouveaux fruits sur la terre"
-    },
-    "fr-sb-495.wav": {
-      "text": "il était à soixante millions de kilomètres dans l’espace"
-    },
-    "fr-sb-499.wav": {
-      "text": "son esprit s’engourdissait éprouvait des difficultés à dissimuler la colère"
-    },
-    "fr-sb-501.wav": {
-      "text": "il se retourna et reconnut ce faisant que le poids était une simple main posée"
-    },
-    "fr-sb-500.wav": {
-      "text": "elles ont déterminé un mouvement d'équité sociale qui ne s'arrêtera pas"
-    },
-    "fr-sb-503.wav": {
-      "text": "les yeux dans les yeux les clients les interrogent sur le temps"
-    },
-    "fr-sb-496.wav": {
-      "text": "le monde était dans une sécurité et une tranquillité parfaites"
-    },
-    "fr-sb-498.wav": {
-      "text": "une image floue et mouvante se formait et se déformait dans son esprit"
-    },
-    "fr-sb-497.wav": {
-      "text": "il vérifia sa perfusion elle n'injectait plus rien"
-    },
-    "fr-sb-504.wav": {
-      "text": "il avança d'un pas et la pression s'accentua un court instant"
-    }
-  }
+  "num_wavs": 10,
+  "num_words": 114,
+  "num_intents": 0,
+  "num_entities": 0,
+  "correct_transcriptions": 0,
+  "correct_intent_names": 0,
+  "correct_words": 70,
+  "correct_entities": 0,
+  "correct_intent_and_entities": 0,
+  "transcription_accuracy": 0.6140350877192983,
+  "intent_accuracy": 1,
+  "entity_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "average_transcription_speedup": 1.8683769228719853
 }
