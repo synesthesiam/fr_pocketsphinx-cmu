@@ -547,7 +547,7 @@
       ],
       "text": "on la lumière dans la chambre à coucher",
       "raw_text": "allumé la lumière dans la chambre à coucher",
-      "recognize_seconds": 0.000576522001210833,
+      "recognize_seconds": 0.00043005499901482835,
       "tokens": [
         "on",
         "la",
@@ -569,7 +569,7 @@
         "coucher"
       ],
       "wav_seconds": 2.562125,
-      "transcribe_seconds": 0.10550804800004698,
+      "transcribe_seconds": 0.09812663199772942,
       "speech_confidence": null,
       "wav_name": "allumé_la_lumière_dans_la_chambre_à_coucher.wav",
       "expected_intent_name": "ChangeLightState",
@@ -648,7 +648,7 @@
       ],
       "text": "on la lampe de salon",
       "raw_text": "allumé la lampe de salon",
-      "recognize_seconds": 0.0004156479990342632,
+      "recognize_seconds": 0.000979481999820564,
       "tokens": [
         "on",
         "la",
@@ -664,7 +664,7 @@
         "salon"
       ],
       "wav_seconds": 1.7656875,
-      "transcribe_seconds": 0.0879437190014869,
+      "transcribe_seconds": 0.0837201529975573,
       "speech_confidence": null,
       "wav_name": "allumé_la_lampe_de_salon.wav",
       "expected_intent_name": "ChangeLightState",
@@ -709,7 +709,7 @@
       "entities": [],
       "text": "est -elle ouverte ou fermée la porte de garage",
       "raw_text": "est -elle ouverte ou fermée la porte de garage",
-      "recognize_seconds": 0.0003853289999824483,
+      "recognize_seconds": 0.0004079209975316189,
       "tokens": [
         "est",
         "-elle",
@@ -733,7 +733,7 @@
         "garage"
       ],
       "wav_seconds": 2.760625,
-      "transcribe_seconds": 0.12684517600064282,
+      "transcribe_seconds": 0.12422158299887087,
       "speech_confidence": null,
       "wav_name": "estelle_ouverte_ou_fermée_la_porte_de_garage.wav",
       "expected_intent_name": "GetGarageState",
@@ -784,27 +784,17 @@
     },
     "il_est_quelle_heure.wav": {
       "intent": {
-        "name": "GetTime",
-        "confidence": 1
+        "name": "",
+        "confidence": 0
       },
       "entities": [],
-      "text": "il est quelle heure",
-      "raw_text": "il est quelle heure",
-      "recognize_seconds": 0.0010100850013259333,
-      "tokens": [
-        "il",
-        "est",
-        "quelle",
-        "heure"
-      ],
-      "raw_tokens": [
-        "il",
-        "est",
-        "quelle",
-        "heure"
-      ],
+      "text": "il est quelle à",
+      "raw_text": "il est quelle à",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 0.94875,
-      "transcribe_seconds": 0.03851277899957495,
+      "transcribe_seconds": 0.04907963799996651,
       "speech_confidence": null,
       "wav_name": "il_est_quelle_heure.wav",
       "expected_intent_name": "GetTime",
@@ -821,21 +811,21 @@
           "il",
           "est",
           "quelle",
-          "heure"
+          "à"
         ],
         "differences": [
           "il",
           "est",
           "quelle",
-          "heure"
+          "heure:à"
         ],
         "words": 4,
-        "errors": 0,
-        "matches": 4,
-        "substitutions": 0,
+        "errors": 1,
+        "matches": 3,
+        "substitutions": 1,
         "deletions": 0,
         "insertions": 0,
-        "error_rate": 0
+        "error_rate": 0.25
       }
     },
     "éteindre_la_lampe_de_salon.wav": {
@@ -850,7 +840,7 @@
       "tokens": [],
       "raw_tokens": [],
       "wav_seconds": 1.8169375,
-      "transcribe_seconds": 0.08054877700124052,
+      "transcribe_seconds": 0.07228139300059411,
       "speech_confidence": null,
       "wav_name": "éteindre_la_lampe_de_salon.wav",
       "expected_intent_name": "ChangeLightState",
@@ -897,7 +887,7 @@
       "tokens": [],
       "raw_tokens": [],
       "wav_seconds": 2.867875,
-      "transcribe_seconds": 0.14214915499906056,
+      "transcribe_seconds": 0.1345220170005632,
       "speech_confidence": null,
       "wav_name": "la_porte_de_garage_estelle_ouverte_ou_fermée.wav",
       "expected_intent_name": "GetGarageState",
@@ -957,7 +947,7 @@
       "tokens": [],
       "raw_tokens": [],
       "wav_seconds": 3.0151875,
-      "transcribe_seconds": 0.1029141970029741,
+      "transcribe_seconds": 0.11470254099913291,
       "speech_confidence": null,
       "wav_name": "estce_que_la_porte_de_garage_est_ouverte_ou_fermée.wav",
       "expected_intent_name": "GetGarageState",
@@ -1037,7 +1027,7 @@
       ],
       "text": "on l'éclairage de garage",
       "raw_text": "allumé l'éclairage de garage",
-      "recognize_seconds": 0.0005652990003000014,
+      "recognize_seconds": 0.00040126800013240427,
       "tokens": [
         "on",
         "l'éclairage",
@@ -1051,7 +1041,7 @@
         "garage"
       ],
       "wav_seconds": 1.9378125,
-      "transcribe_seconds": 0.10473032599838916,
+      "transcribe_seconds": 0.09844881900062319,
       "speech_confidence": null,
       "wav_name": "allumé_léclairage_de_garage.wav",
       "expected_intent_name": "ChangeLightState",
@@ -1118,7 +1108,7 @@
       ],
       "text": "off la lumière dans la chambre à coucher",
       "raw_text": "éteindre la lumière dans la chambre à coucher",
-      "recognize_seconds": 0.0002535719977458939,
+      "recognize_seconds": 0.0004153339978074655,
       "tokens": [
         "off",
         "la",
@@ -1140,7 +1130,7 @@
         "coucher"
       ],
       "wav_seconds": 2.6883125,
-      "transcribe_seconds": 0.11705704800260719,
+      "transcribe_seconds": 0.11721756200131495,
       "speech_confidence": null,
       "wav_name": "éteindre_la_lumière_dans_la_chambre_à_coucher.wav",
       "expected_intent_name": "ChangeLightState",
@@ -1188,27 +1178,17 @@
     },
     "quelle_heure_estil.wav": {
       "intent": {
-        "name": "GetTime",
-        "confidence": 1
+        "name": "",
+        "confidence": 0
       },
       "entities": [],
-      "text": "quelle heure est -il",
-      "raw_text": "quelle heure est -il",
-      "recognize_seconds": 0.00031830000079935417,
-      "tokens": [
-        "quelle",
-        "heure",
-        "est",
-        "-il"
-      ],
-      "raw_tokens": [
-        "quelle",
-        "heure",
-        "est",
-        "-il"
-      ],
+      "text": "-elle à est -il",
+      "raw_text": "-elle à est -il",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 1.0114375,
-      "transcribe_seconds": 0.05601114700039034,
+      "transcribe_seconds": 0.07237913700009813,
       "speech_confidence": null,
       "wav_name": "quelle_heure_estil.wav",
       "expected_intent_name": "GetTime",
@@ -1222,14 +1202,14 @@
           "heure"
         ],
         "hypothesis": [
-          "quelle",
-          "heure",
+          "-elle",
+          "à",
           "est",
           "-il"
         ],
         "differences": [
-          "il:quelle",
-          "est:heure",
+          "il:-elle",
+          "est:à",
           "quelle:est",
           "heure:-il"
         ],
@@ -1275,7 +1255,7 @@
       ],
       "text": "off l'éclairage de garage",
       "raw_text": "éteindre l'éclairage de garage",
-      "recognize_seconds": 0.00022740699932910502,
+      "recognize_seconds": 0.00042821900206035934,
       "tokens": [
         "off",
         "l'éclairage",
@@ -1289,7 +1269,7 @@
         "garage"
       ],
       "wav_seconds": 2.0468125,
-      "transcribe_seconds": 0.10109098199973232,
+      "transcribe_seconds": 0.08223818400074379,
       "speech_confidence": null,
       "wav_name": "éteindre_léclairage_de_garage.wav",
       "expected_intent_name": "ChangeLightState",
@@ -1329,13 +1309,13 @@
         "confidence": 0
       },
       "entities": [],
-      "text": "-elle température",
-      "raw_text": "-elle température",
+      "text": "est la température",
+      "raw_text": "est la température",
       "recognize_seconds": 0,
       "tokens": [],
       "raw_tokens": [],
       "wav_seconds": 1.4678125,
-      "transcribe_seconds": 0.060855390001961496,
+      "transcribe_seconds": 0.058736562001286075,
       "speech_confidence": null,
       "wav_name": "quelle_est_la_température.wav",
       "expected_intent_name": "GetTemperature",
@@ -1349,20 +1329,22 @@
           "température"
         ],
         "hypothesis": [
-          "-elle",
+          "est",
+          "la",
           "température"
         ],
         "differences": [
-          "la:-elle",
+          "est",
+          "la",
           "température"
         ],
         "words": 4,
-        "errors": 3,
-        "matches": 1,
-        "substitutions": 1,
+        "errors": 1,
+        "matches": 3,
+        "substitutions": 0,
         "deletions": 0,
         "insertions": 0,
-        "error_rate": 0.25
+        "error_rate": 0
       }
     }
   },
@@ -1370,14 +1352,14 @@
   "num_words": 73,
   "num_intents": 12,
   "num_entities": 12,
-  "correct_transcriptions": 7,
-  "correct_intent_names": 8,
-  "correct_words": 62,
+  "correct_transcriptions": 6,
+  "correct_intent_names": 6,
+  "correct_words": 63,
   "correct_entities": 10,
-  "correct_intent_and_entities": 8,
-  "transcription_accuracy": 0.8493150684931506,
-  "intent_accuracy": 0.6666666666666666,
+  "correct_intent_and_entities": 6,
+  "transcription_accuracy": 0.863013698630137,
+  "intent_accuracy": 0.5,
   "entity_accuracy": 0.8333333333333334,
-  "intent_entity_accuracy": 0.6666666666666666,
-  "average_transcription_speedup": 22.223596551425658
+  "intent_entity_accuracy": 0.5,
+  "average_transcription_speedup": 22.330714047785563
 }
