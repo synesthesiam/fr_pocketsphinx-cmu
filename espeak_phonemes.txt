@@ -1,7 +1,7 @@
 aa a
 ai E
 an A~
-au o
+au O
 bb b
 ch S
 dd d
@@ -20,7 +20,7 @@ mm m
 nn n
 oe W
 on O~
-oo O
+oo o
 ou u
 pp p
 rr r
@@ -28,7 +28,7 @@ ss s
 tt t
 un W~
 uu y
-uy y
+uy yi
 vv v
 ww w
 yy j
